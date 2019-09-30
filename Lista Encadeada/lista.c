@@ -29,4 +29,17 @@ Nodo* search (List *L, int key){
   return NULL;
 }
 
+Nodo *search_nodo(Nodo *head){
+  if (head == NULL) //verifica se é nulo, se for, nao achei
+      return head;
+  if (head->info==key) //verifica se a informação esta aqui
+    return head;
+  search_nodo(head->next,key); //se nao for o primeiro elemento da lista procura nas seguintes
+}
+
+Nodo *search_recursivo(List *L, int key){
+  return search_nodo(L->head, key);
+}
+
+
 void list_print(List *L);
