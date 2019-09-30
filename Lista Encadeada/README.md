@@ -1,4 +1,6 @@
-#### Linked list ou lista encadeada e um tipo de estrutura de dados que contém um grupo de nos interligados através de ponteiros, onde o ponteiro dentro da estrutura aponta para o próximo nó até que o ponteiro seja NULL indicando assim o fim da lista.
+#### Linked list ou lista encadeada    
+
+É um tipo de estrutura de dados que contém um grupo de nos interligados através de ponteiros, onde o ponteiro dentro da estrutura aponta para o próximo nó até que o ponteiro seja NULL indicando assim o fim da lista.
 
 O início aponta para um ponteiro que inicia a estrutura ou o primeiro nó da lista e no final o ponteiro aponta para um Null indicando o fim da lista.
 Estrutura de dados na linguagem C e um tema muito abrangente e tem muitos tópicos mas aqui vamos usar como referência uma estrutura bem simples pra facilitar o entendimento e a execução do exemplo.
