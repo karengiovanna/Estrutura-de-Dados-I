@@ -17,3 +17,5 @@ Nodo* search (List *L, int key){
   }
   return NULL;
 }
+
+void list_print(List *L);
