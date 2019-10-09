@@ -38,3 +38,6 @@ A convenção na linguagem C é preparar dois arquivos para implementar um "TAD"
 >Arquivo.c : declaração do tipo de dados e implementação das duas funções.    
 
 Assim separamos o "conceito" (definição do tipo) de sua "implementação"
+
+- Lista Ordenada
+- Lista duplamente encadeada
