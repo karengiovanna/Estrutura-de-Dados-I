@@ -6,7 +6,12 @@ typedef struct nodo{
   int info;   
   struct nodo * next;    
   struct nodo * prev;   
-  
-  
-Inclusão e remoção são as unicas duas funções diferentes   
-  
+}Node;
+
+typedef struct list{      
+  int len;   
+  Node *start;   
+  Node *last;   
+} DoublyList;   
+
+create, list insert begin e list insert end são as unicas duas funções diferentes   
