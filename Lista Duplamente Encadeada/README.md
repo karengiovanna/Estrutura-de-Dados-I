@@ -15,3 +15,6 @@ typedef struct list{
 } DoublyList;   
 
 create, list insert begin e list insert end são as unicas duas funções diferentes   
+
+1. criar a lista (malloc Node)
+2. colocar as informacoes
