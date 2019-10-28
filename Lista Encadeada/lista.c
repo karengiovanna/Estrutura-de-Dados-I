@@ -65,7 +65,7 @@ Nodo* procurar (Lista *L, int key){
 * search_nodo não estará visível para o usuário
 porque não adicionamos o cabeçalho dela no list.h
 */
-Nodo * procurar_nodo(Nodo* head, int key)
+Nodo * procurar_nodo(Nodo* head, int key);
 
 Nodo *search_nodo(Nodo *head){
   if (head == NULL) //verifica se é nulo, se for, nao achei
